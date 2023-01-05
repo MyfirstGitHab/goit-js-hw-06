@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 const item = document.querySelectorAll('.item');
 console.log("Number of categories: "+ item.length);
 
