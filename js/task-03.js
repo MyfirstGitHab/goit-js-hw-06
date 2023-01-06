@@ -35,5 +35,9 @@ const gallery =document.querySelector(".gallery");
 const list=images.map(({url,alt})=>{
   return `<li class="gallery-item"><a href="#"><img src="${url}" alt="${alt}" </img></a></li>`;
 });
-const listItem = list.join('');
+console.log(typeof(list));
+console.log(list);
+const listItem = list.join('1234567890');
+console.log(listItem);
+console.log(typeof(listItem));
 gallery.innerHTML=list;
